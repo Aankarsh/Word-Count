@@ -18,7 +18,7 @@ Count the number of words.
 ### Step 6: 
 Giving print statement for getting output.
 ## PROGRAM:
-
+```
 #Program for getting the word count from a text
 
 num_words =0
@@ -28,8 +28,10 @@ with open('text.txt','r') as file1:
 
   num_words += len(word)
 print("Number of words={}".format(num_words))
-
+```
 OUTPUT:
+
+
 ![376868515-9d275196-ef3b-4d00-b027-919441de6c23](https://github.com/user-attachments/assets/30efc70c-4d72-4c91-b1b3-e52b236522e2)
 
 ![376868427-152bf73d-0d45-44a7-8134-276bac74497b](https://github.com/user-attachments/assets/c21fba05-f81e-47db-b37b-cb585c5ff1a8)
